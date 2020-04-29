@@ -13,10 +13,10 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-axios({
-  // 默认为 get 请求
-  url:'http://123.207.32.32:8000/home/multidata',
-  // method:'post'
-}).then(res =>{
-  console.log(res);
-})
+// axios({
+//   // 默认为 get 请求
+//   url:'http://123.207.32.32:8000/home/multidata',
+//   // method:'post'
+// }).then(res =>{
+//   console.log(res);
+// })

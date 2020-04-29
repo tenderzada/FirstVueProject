@@ -9,9 +9,13 @@
 
 <script>
 export default {
-  name:'App'
+  name:'App',
+  components:{
+
+  }
 }
 </script>
 
 <style>
+  @import url(../src/assets/css/base.css);
 </style>
